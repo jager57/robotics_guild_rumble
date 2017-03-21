@@ -4,6 +4,6 @@ $name = $_POST['name']+" ";
 $write = fopen("$file$ex","a");  
 fwrite($write,$name); 
 fclose($write);
-header('Location: https://www.google.com');
+header('Location: https://jager57.github.io/robotics_guild_rumble');
 exit;
 ?>
